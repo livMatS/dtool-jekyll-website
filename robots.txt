@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://livmats.github.io/dtool-jekyll-website//sitemap.xml
