@@ -1,0 +1,134 @@
+@article{hartley2020dtoolai,
+  title = {{{dtoolAI}}: {{Reproducibility}} for {{Deep Learning}}},
+  shorttitle = {{{dtoolAI}}},
+  author = {Hartley, Matthew and Olsson, Tjelvar S. G.},
+  year = {2020},
+  month = aug,
+  journal = {Patterns},
+  volume = {1},
+  number = {5},
+  pages = {100073},
+  issn = {2666-3899},
+  doi = {10.1016/j.patter.2020.100073},
+  urldate = {2023-12-04},
+  abstract = {Deep learning, a set of approaches using artificial neural networks, has generated rapid recent advancements in machine learning. Deep learning does, however, have the potential to reduce the reproducibility of scientific results. Model outputs are critically dependent on the data and processing approach used to initially generate the model, but this provenance information is usually lost during model training. To avoid a future reproducibility crisis, we need to improve our deep-learning model management. The FAIR principles for data stewardship and software/workflow implementation give excellent high-level guidance on ensuring effective reuse of data and software. We suggest some specific guidelines for the generation and use of deep-learning models in science and explain how these relate to the FAIR principles. We then present dtoolAI, a Python package that we have developed to implement these guidelines. The package implements automatic capture of provenance information during model training and simplifies model distribution.},
+  keywords = {AI,artificial intelligence,data,data management,deep learning,FAIR data,machine learning,provenance,reproducibility},
+  annotation = {8},
+  file = {/mnt/dat/Zotero/storage/RURYIZH4/Hartley and Olsson - 2020 - dtoolAI Reproducibility for Deep Learning.pdf;/mnt/dat/Zotero/storage/56E2VADK/S2666389920300933.html}
+}
+% == BibTeX quality report for hartley2020dtoolai:
+% ? unused Library catalog ("ScienceDirect")
+% ? unused Url ("https://www.sciencedirect.com/science/article/pii/S2666389920300933")
+
+@article{holey2022heightaveraged,
+  title = {Height-{{Averaged Navier}}--{{Stokes Solver}} for {{Hydrodynamic Lubrication}}},
+  author = {Holey, Hannes and Codrignani, Andrea and Gumbsch, Peter and Pastewka, Lars},
+  year = {2022},
+  month = mar,
+  journal = {Tribology Letters},
+  volume = {70},
+  number = {2},
+  pages = {36},
+  issn = {1573-2711},
+  doi = {10.1007/s11249-022-01576-5},
+  urldate = {2024-02-20},
+  abstract = {The cornerstone of thin-film flow modeling is the Reynolds equation---a lower-dimensional representation of the Navier--Stokes equation. The derivation of the Reynolds equation is based on explicit assumptions about the constitutive behavior of the fluid that prohibit applications in multiscale scenarios based on measured or atomistically simulated data. Here, we present a method that treats the macroscopic flow evolution and the calculation of local cross-film stresses as separate yet coupled problems---the so-called macro and micro problem. The macro problem considers mass and momentum balance for compressible fluids in a height-averaged sense and is solved using a time-explicit finite-volume scheme. Analytical solutions for the micro problem are derived for common constitutive laws and implemented into the Height-averaged Navier--Stokes (HANS) solver. We demonstrate the validity of our solver on examples, including mass-conserving cavitation, inertial effects, wall slip, and non-Newtonian fluids. The presented method is not limited to these fixed-form relations and may therefore be useful for testing constitutive relations obtained from experiment or simulation.},
+  langid = {english},
+  keywords = {Cavitation in hydrodynamics,Compressibility in hydrodynamics,Fluid mechanics methods,Hydrodynamic lubrication},
+  annotation = {13},
+  file = {/mnt/dat/Zotero/storage/R824C82F/Holey et al. - 2022 - Height-Averaged Navier–Stokes Solver for Hydrodyna.pdf}
+}
+% == BibTeX quality report for holey2022heightaveraged:
+% ? unused Journal abbreviation ("Tribol. Lett.")
+% ? unused Library catalog ("Springer Link")
+% ? unused Url ("https://doi.org/10.1007/s11249-022-01576-5")
+
+@phdthesis{holey2023entwicklung,
+  title = {{Entwicklung einer Multiskalenmethode f{\"u}r die Simulation von Schmierprozessen}},
+  author = {Holey, Hannes},
+  year = {2023},
+  urldate = {2023-10-20},
+  abstract = {Reibung und Schmierung sind Multiskalenprobleme, d.h. Prozesse auf unterschiedlichen Zeit- und L{\"a}ngenskalen beeinflussen einander und bestimmen die makroskopische Antwort eines Systems. F{\"u}r Schmierungsprozesse trifft dies insbesondere im Grenzreibungsbereich zu, in dem die Dicke des Schmierspalts in der Gr{\"o}{\ss}enordnung molekularer Interaktionsl{\"a}ngen liegt. Makroskopische Schmierungsmodellierung basiert fast ausschlie{\ss}lich auf der Anwendung der Reynoldsgleichung, w{\"a}hrend auf atomarer Skala vermehrt Molekulardynamik-Simulationen in den Vordergrund treten. Multiskalenmethoden f{\"u}r Schmierungsph{\"a}nomene, die {\"u}ber sequentielle Ans{\"a}tze hinausgehen, sind bisher noch nicht etabliert. Im Rahmen dieser Arbeit wird ein Multiskalenansatz vorgestellt, welcher die L{\"o}sung der makroskopischen Bilanzgleichungen in ein Mikro- und Makroproblem aufteilt. Das Makroproblem entsteht durch Mittelung der Bilanzgleichungen {\"u}ber der Spalth{\"o}he, {\"a}hnlich zur konventionellen Reynoldsgleichung, und wird mittels expliziter Finite-Volumen-Diskretisierung gel{\"o}st, w{\"a}hrend das Mikroproblem das konstitutive Verhalten des Schmierfilms enth{\"a}lt. Die numerische Implementierung des Makroproblems wird mithilfe gew{\"o}hnlicher Konstitutivgesetze validiert und anhand konkreter Beispiele wird gezeigt, dass diese in Zukunft durch Molekulardynamik-Simulationen ersetzt werden k{\"o}nnen. Au{\ss}erdem lassen sich analytische L{\"o}sungen der linearisierten Grundgleichungen des Makroproblems herleiten, die mit Autokorrelationsfunktionen fluktuierender Zustandsvariablen aus Molekulardynamik-Simulationen verglichen werden. Daraus ergibt sich eine Methode zur simultanen Bestimmung von Viskosit{\"a}t und Schlupfl{\"a}nge aus Gleichgewichts-Simulationen, sowie die Beschreibung des {\"u}berkritischen Schalltransports in Fluidspalten. F{\"u}r eine effiziente Umsetzung des vorgestellten Multiskalenansatzes wird eine Ersatzmodellierung ben{\"o}tigt, die zwischen einzelnen Mikrosimulationen interpoliert. Anhand von einfachen Beispielen wird das Anwendungspotential der Gau{\ss}prozess-Regression als m{\"o}gliches Ersatzmodell evaluiert. Die vorliegende Arbeit liefert somit die theoretischen Grundlagen einer simultanen Multiskalensimulation von Schmierungsprozessen, welche in Zukunft zu einem besseren Verst{\"a}ndnis der Dissipationsmechanismen im Grenzreibungsbereich beitragen kann.},
+  langid = {ngerman},
+  school = {Karlsruher Institut f{\"u}r Technologie (KIT)},
+  annotation = {12},
+  file = {/mnt/dat/Zotero/storage/A4LCSJZX/Holey - 2023 - Entwicklung einer Multiskalenmethode für die Simul.pdf}
+}
+% == BibTeX quality report for holey2023entwicklung:
+% ? unused Url ("https://publikationen.bibliothek.kit.edu/1000157008")
+
+@article{hormann2023molecular,
+  title = {Molecular simulations of sliding on {{SDS}} surfactant films},
+  author = {H{\"o}rmann, Johannes L. and Liu, Chenxu (刘宸旭) and Meng, Yonggang (孟永钢) and Pastewka, Lars},
+  year = {2023},
+  month = jun,
+  journal = {The Journal of Chemical Physics},
+  volume = {158},
+  number = {24},
+  pages = {244703},
+  issn = {0021-9606},
+  doi = {10.1063/5.0153397},
+  urldate = {2023-10-19},
+  abstract = {We use molecular dynamics simulations to study the frictional response of monolayers of the anionic surfactant sodium dodecyl sulfate and hemicylindrical aggregates physisorbed on gold. Our simulations of a sliding spherical asperity reveal the following two friction regimes: at low loads, the films show Amonton's friction with a friction force that rises linearly with normal load, and at high loads, the friction force is independent of the load as long as no direct solid--solid contact occurs. The transition between these two regimes happens when a single molecular layer is confined in the gap between the sliding bodies. The friction force at high loads on a monolayer rises monotonically with film density and drops slightly with the transition to hemicylindrical aggregates. This monotonous increase of friction force is compatible with a traditional plowing model of sliding friction. At low loads, the friction coefficient reaches a minimum at the intermediate surface concentrations. We attribute this behavior to a competition between adhesive forces, repulsion of the compressed film, and the onset of plowing.},
+  annotation = {14},
+  file = {/mnt/dat/Zotero/storage/IWP7Q83P/Hörmann and Pastewka - 2023 - Molecular simulations of sliding on SDS surfactant.pdf;/mnt/dat/Zotero/storage/J6EDSUP3/Hörmann et al. - 2023 - Molecular simulations of sliding on SDS surfactant.pdf;/mnt/dat/Zotero/storage/LWGRFUV8/Molecular-simulations-of-sliding-on-SDS-surfactant.html}
+}
+% == BibTeX quality report for hormann2023molecular:
+% ? unused Journal abbreviation ("J. Chem. Phys.")
+% ? unused Library catalog ("Silverchair")
+% ? unused Url ("https://doi.org/10.1063/5.0153397")
+
+@article{sanner2022crackfront,
+  title = {Crack-front model for adhesion of soft elastic spheres with chemical heterogeneity},
+  author = {Sanner, Antoine and Pastewka, Lars},
+  year = {2022},
+  month = mar,
+  journal = {Journal of the Mechanics and Physics of Solids},
+  volume = {160},
+  pages = {104781},
+  issn = {00225096},
+  doi = {10.1016/j.jmps.2022.104781},
+  urldate = {2022-03-19},
+  abstract = {Adhesion hysteresis can be caused by elastic instabilities that are triggered by surface roughness or chemical heterogeneity. However, the role of these instabilities in adhesion hysteresis remains poorly understood because we lack theoretical and numerical models accounting for realistic roughness. Our work focuses on the adhesion of soft elastic spheres with low roughness or weak heterogeneity, where the indentation process can be described as a Griffith-like propagation of a nearly circular external crack. We discuss how to describe the contact of spheres with chemical heterogeneity that leads to fluctuations in the local work of adhesion. We introduce a variational first-order crack-perturbation model and validate our approach using boundary-element simulations. The crack-perturbation model faithfully predicts contact shapes and hysteretic force-penetration curves, provided that the contact perimeter remains close to a circle and the contact area is simply connected. Computationally, the crack-perturbation model is orders of magnitude more efficient than the corresponding boundary element formulation, allowing for realistic heterogeneity fields.},
+  langid = {english},
+  keywords = {Adhesion and adhesives,Contact mechanics,Crack propagation and arrest,Elastic material,Hysteresis},
+  annotation = {11},
+  file = {/mnt/dat/Zotero/storage/END4IQ7P/Sanner and Pastewka - 2022 - Crack-front model for adhesion of soft elastic sph.pdf}
+}
+% == BibTeX quality report for sanner2022crackfront:
+% ? unused Journal abbreviation ("J. Mech. Phys. Solids")
+% ? unused Library catalog ("DOI.org (Crossref)")
+% ? unused Url ("https://linkinghub.elsevier.com/retrieve/pii/S0022509622000059")
+
+@phdthesis{sanner2023how,
+  title = {How surface roughness affects adhesion},
+  author = {Sanner, Antoine},
+  year = {2023},
+  langid = {english},
+  school = {University of Freiburg},
+  annotation = {10},
+  file = {/mnt/dat/Zotero/storage/L6MBRHTZ/Sanner - How surface roughness affects adhesion.pdf}
+}
+% == BibTeX quality report for sanner2023how:
+% ? unused Archive ("FreiDok plus")
+% ? unused Archive location ("https://freidok.uni-freiburg.de/data/235048")
+% ? unused Url ("https://doi.org/10.6094/UNIFR/235048")
+
+@article{sanner2024why,
+  title = {Why soft contacts are stickier when breaking than when making them},
+  author = {Sanner, Antoine and Kumar, Nityanshu and Dhinojwala, Ali and Jacobs, Tevis D. B. and Pastewka, Lars},
+  year = {2024},
+  month = mar,
+  journal = {Science Advances},
+  volume = {10},
+  number = {10},
+  pages = {eadl1277},
+  publisher = {American Association for the Advancement of Science},
+  doi = {10.1126/sciadv.adl1277},
+  urldate = {2024-04-22},
+  abstract = {Soft solids are sticky. They attract each other and spontaneously form a large area of contact. Their force of attraction is higher when separating than when forming contact, a phenomenon known as adhesion hysteresis. The common explanation for this hysteresis is viscoelastic energy dissipation or contact aging. Here, we use experiments and simulations to show that it emerges even for perfectly elastic solids. Pinning by surface roughness triggers the stick-slip motion of the contact line, dissipating energy. We derive a simple and general parameter-free equation that quantitatively describes contact formation in the presence of roughness. Our results highlight the crucial role of surface roughness and present a fundamental shift in our understanding of soft adhesion.},
+  file = {/mnt/dat/Zotero/storage/9UJUL4U3/Sanner et al. - 2024 - Why soft contacts are stickier when breaking than .pdf}
+}
+% == BibTeX quality report for sanner2024why:
+% ? unused Library catalog ("science.org (Atypon)")
+% ? unused Url ("https://www.science.org/doi/full/10.1126/sciadv.adl1277")
