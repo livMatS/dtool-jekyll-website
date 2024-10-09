@@ -2,24 +2,41 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
 ---
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dtool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="C:\Users\ritik\OneDrive\Desktop\LivMat\Job 2\dtool-jekyll-website\assets\img\images\dtool_logo.png" alt="dtool logo" class="logo">
+            <h1>dtool</h1>
+        </div>
+        <nav class="header-right">
+            <a href="index.html">About</a>
+            <a href="development.html">Development</a> <!-- Updated Link -->
+            <a href="publications.html">Publications</a> <!-- Updated Link -->
+        </nav>
+    </header>
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p class="intro-text">dtool is a suite of software for managing scientific data and making it accessible programmatically. It consists of a command line interface dtool and a Python API: dtoolcore.</p>
+            <p class="intro-text">The dtool command line interface allows one to organize files into datasets and to move datasets between different storage solutions, for example from local disk to remote object storage. Importantly, it also provides methods to verify that the transfer has been successful.</p>
+            <p class="intro-text">The Python API gives complete access to the data and metadata in a dataset. It makes it easy to create scripts for processing the items, or a subset of items, in a dataset. The Python API also allows datasets to be constructed programmatically.</p>
+        </section>
+    </main>
+    <footer>
+        <div class="funding-badges">
+            <a href="https://pastewka.org/"><img src="images/uni_freiburg_logo.5739c1dfe3e3.png" alt="Funder 1"></a>
+            <span class="text">— Funding by —</span>
+            <a href="https://www.livmats.uni-freiburg.de/en"><img src="images/logo_livmats_small.8dc8a4c03938.jpg" alt="Funder 2"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
