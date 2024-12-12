@@ -1,0 +1,33 @@
+- name: dtool
+  parts:
+    - user-interaction
+    - automated-execution
+  blocks:
+    - terminal
+    - gui
+    - python-api
+    - storage-item-disk
+    - storage-item-smb
+    - storage-item-s3
+    - storage-item-other
+    - file-system
+    - network-share
+    - object-storage
+    - other-infrastructure
+- name: dserver
+  parts:
+    - user-interaction
+    - automated-execution
+  blocks:
+    - terminal
+    - gui
+    - python-api
+    - webapp
+    - restapi
+    - flask
+    - search-plugin
+    - retrieve-plugin
+    - other-plugins
+    - database
+    - mongodb
+    - other-database
