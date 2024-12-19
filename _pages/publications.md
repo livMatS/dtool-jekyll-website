@@ -9,12 +9,14 @@ nav_order: 2
 
 <!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
 
 {% include bib_search.liquid %}
 
 <div class="publications">
 
 {% bibliography %}
+
+<h3 style="padding-top:30; border-top: 1px solid var(--global-divider-color);" >Publications empowered by dtool <br></h3>
+{% bibliography --file empowered %}
 
 </div>
