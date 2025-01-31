@@ -13,9 +13,11 @@ nav_order: 2
 {% for tool in site.data.tools %}
   <section id="{{ tool.name | downcase | replace: ' ', '-' }}">
     <h2 class="">{{ tool.name }}</h2>
-    <div class="{{ tool.name }}-grid">
+    <div class="tool-grid">
       {% for part in tool.parts %}
-         {{ part }}
+        <div class="{{part}}">
+          <span>{{ part }}</span>
+        </div>
       {% endfor %}
       {% for block in tool.blocks %}
         <div class="block {{ block | downcase | replace: ' ', '-' }}">

@@ -41,8 +41,13 @@ section {
   .block.terminal, .file-system, .other-infrastructure, .other-plugins, .other-database {
     background-color: #a7bcc4; /* grey */
   }
+
+  /*.block.terminal {
+    justify-self: end;
+    grid-area: 3/1/4/2; 
+  }*/
   
-  .gui. .python-api, .storage-item-disk, .storage-item-smb, .storage-item-s3, .storage-item-other, .search-plugin, .retrieve-plugin, .flask, .database {
+  .gui .python-api, .storage-item-disk, .storage-item-smb, .storage-item-s3, .storage-item-other, .search-plugin, .retrieve-plugin, .flask, .database {
     background-color: #48ceff; /* blue*/
   }
   
@@ -57,4 +62,20 @@ section {
   
   .block.webapp, .restapi, .mongodb {
     background-color: #ccffcc; /* Light green */
+  }
+
+ 
+  .user-interaction{
+    grid-column: 3 / span 2;
+    grid-row: 1;
+    background-color: #8CC63F;
+    color: white;
+  }
+  
+  
+  .automated-execution{
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    background-color: #8CC63F;
+    color: white;
   }
