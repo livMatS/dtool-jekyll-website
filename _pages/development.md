@@ -20,8 +20,8 @@ nav_order: 2
         </div>
       {% endfor %}
       {% for block in tool.blocks %}
-        <div class="block {{ block | downcase | replace: ' ', '-' }}">
-          {% if block == 'terminal' %}
+        <div class="{{ tool.name | downcase }}-block {{ block | downcase | replace: ' ', '-' }}">
+          {% if block == 'terminal'%}
             <img src="{{ site.baseurl }}/assets/icons/terminal.png" alt="Terminal icon">
             <span><a href="https://dtool.readthedocs.io">dtool CLI</a></span>
           {% elsif block == 'gui' %}
@@ -34,9 +34,9 @@ nav_order: 2
             <img src="{{ site.baseurl }}/assets/icons/python.png" alt="Python icon">
             <span>disk storage broker</span>
           {% elsif block == 'storage-item-smb' %}
-            <span>dtool-smb</span>
+            <span><a href="https://github.com/livMatS/dtool-smb">dtool-smb</a></span>
           {% elsif block == 'storage-item-s3' %}
-            <span>dtool-s3</span>
+            <span> <a href="https://github.com/jic-dtool/dtool-s3"> dtool-s3</a></span>
           {% elsif block == 'storage-item-other' %}
             <span>other storage brokers ...</span>
           {% elsif block == 'file-system' %}
