@@ -8,6 +8,6 @@ nav_order: 3
 ---
 
 <div class="interoperability">
-<p>datalad - <a href="https://github.com/livMatS/datalad-dtool/blob/main/README.md">dtool-extension</a></p>
-<p> <a href="">solidipes</a> - dtool datasets are fully absorbed by solidipes if supplied as dataset or metadata</p>
+<p><a href="https://datalad-dtool.readthedocs.io">datalad-dtool</a> is an experimental extension for <a href="https://www.datalad.org">DataLad</a> that exports dtool datasets from DataLad datasets and imports dtool datasets as external sources into DataLad datasets by means of a custom <a href="https://git-annex.branchable.com/special_remotes/">git-annex special remote</a></p>
+<p><a href="https://solidipes.readthedocs.io">solidipes</a> is a <a href="https://streamlit.io/">Streamlit</a>-based Python package that helps researchers with curation and publication of their data. Solidipes will be able to import dtool datasets, help to fill out missing metadata, and provide a pathway for publishing them on <a href="https://zenodo.org/">Zenodo</a> and other data repositories.</p>
 </div>
