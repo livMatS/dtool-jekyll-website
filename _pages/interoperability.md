@@ -2,7 +2,7 @@
 layout: page
 permalink: /iteroperability/
 title: interoperability
-description: interoperability of dtool with other apis
+description: interoperability of dtool with other platforms and ecosystems
 nav: true
 nav_order: 3
 ---
