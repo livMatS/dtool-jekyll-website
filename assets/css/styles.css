@@ -1,81 +1,92 @@
 /* Global Styles */
 section {
-    margin-bottom: 40px;
-  }
-  
-  section h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  /* Tool Grid */
-  .tool-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-  }
-  
-  /* Block Styles */
-  .block {
-    background-color: #f0f0f0;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .block img {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 10px;
-  }
-  
-  .block span {
-    font-size: 16px;
-    color:black;
-  }
-  
-  /* Specific Block Styles */
-  .block.terminal, .file-system, .other-infrastructure, .other-plugins, .other-database {
-    background-color: #a7bcc4; /* grey */
-  }
+  margin-bottom: 40px;
+}
 
-  /*.block.terminal {
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Tool Grid */
+.tool-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Block Styles */
+.block {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.block span {
+  font-size: 16px;
+  color: black;
+}
+
+/* Specific Block Styles */
+.block.terminal,
+.file-system,
+.other-infrastructure,
+.other-plugins,
+.other-database {
+  background-color: #a7bcc4; /* grey */
+}
+
+/*.block.terminal {
     justify-self: end;
     grid-area: 3/1/4/2; 
   }*/
-  
-  .gui .python-api, .storage-item-disk, .storage-item-smb, .storage-item-s3, .storage-item-other, .search-plugin, .retrieve-plugin, .flask, .database {
-    background-color: #48ceff; /* blue*/
-  }
-  
-  .block.object-storage {
-    background-color: #f06666; /* Light red */
-  }
-  
-  
-  .block.network-share {
-    background-color: #ccd05a; /* Light yellow */
-  }
-  
-  .block.webapp, .restapi, .mongodb {
-    background-color: #ccffcc; /* Light green */
-  }
 
- 
-  .user-interaction{
-    grid-column: 3 / span 2;
-    grid-row: 1;
-    background-color: #8CC63F;
-    color: white;
-  }
-  
-  
-  .automated-execution{
-    grid-column: 1 / span 3;
-    grid-row: 2;
-    background-color: #8CC63F;
-    color: white;
-  }
+.gui .python-api,
+.storage-item-disk,
+.storage-item-smb,
+.storage-item-s3,
+.storage-item-other,
+.search-plugin,
+.retrieve-plugin,
+.flask,
+.database {
+  background-color: #48ceff; /* blue*/
+}
+
+.block.object-storage {
+  background-color: #f06666; /* Light red */
+}
+
+.block.network-share {
+  background-color: #ccd05a; /* Light yellow */
+}
+
+.block.webapp,
+.restapi,
+.mongodb {
+  background-color: #ccffcc; /* Light green */
+}
+
+.user-interaction {
+  grid-column: 3 / span 2;
+  grid-row: 1;
+  background-color: #8cc63f;
+  color: white;
+}
+
+.automated-execution {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+  background-color: #8cc63f;
+  color: white;
+}

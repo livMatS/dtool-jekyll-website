@@ -4,7 +4,6 @@ title: about
 permalink: /
 ---
 
-
 <body>
     <main>
         <section id="introduction">
