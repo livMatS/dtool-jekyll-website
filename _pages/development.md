@@ -9,13 +9,13 @@ nav_order: 2
 
 <!-- _pages/development.md -->
 
-<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+<!--<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">-->
 {% for tool in site.data.tools %}
   <section id="{{ tool.name | downcase | replace: ' ', '-' }}">
     <h2 class="">{{ tool.name }}</h2>
     <div class="tool-grid">
       {% for part in tool.parts %}
-        <div class="{{part}}">
+        <div class="{{ tool.name }}-h {{part}}">
           <span>{{ part }}</span>
         </div>
       {% endfor %}
