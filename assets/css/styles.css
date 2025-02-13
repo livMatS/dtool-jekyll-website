@@ -96,7 +96,7 @@ section h2 {
   grid-area: 3/3;
 }
 .dtool-block.gui{grid-area: 3/4;}
-.dtool-block.python-api{grid-area: 4/1;}
+.dtool-block.python-api{grid-area: 4/1/4/1;}
 
 
 .dtool-block.storage-item-disk{grid-area: 5/1;}
