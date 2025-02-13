@@ -8,6 +8,13 @@ section h2 {
   margin-bottom: 10px;
 }
 
+.funding-badges{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
 /* Tool Grid */
 .tool-grid {
   display: grid;
