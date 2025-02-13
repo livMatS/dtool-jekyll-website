@@ -16,29 +16,29 @@ section h2 {
 }
 
 /* Block Styles */
-.block {
-  background-color: #f0f0f0;
+.dserver-block, .dtool-block, .dtool-h, .dserver-h{
+  /*background-color: #f0f0f0;*/
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
+  /*display: flex;
+  flex-direction: column;*/
   align-items: center;
 }
 
-.block img {
+.dserver-block img, .dtool-block img {
   width: 50px;
   height: 50px;
   margin-bottom: 10px;
 }
 
-.block span {
+.dserver-block span, .dtool-block span , .dserver-h, .dtool-h{
   font-size: 16px;
   color: black;
 }
 
 /* Specific Block Styles */
-.block.terminal,
+.terminal,
 .file-system,
 .other-infrastructure,
 .other-plugins,
@@ -46,12 +46,14 @@ section h2 {
   background-color: #a7bcc4; /* grey */
 }
 
-/*.block.terminal {
-    justify-self: end;
-    grid-area: 3/1/4/2; 
-  }*/
+.funder1{
+  width: 100px;
+}
+.funder2{
+  width: 115px;
+}
 
-.gui .python-api,
+.gui, .python-api,
 .storage-item-disk,
 .storage-item-smb,
 .storage-item-s3,
@@ -63,40 +65,45 @@ section h2 {
   background-color: #48ceff; /* blue*/
 }
 
-.block.object-storage {
+.dserver-block.object-storage, .dtool-block.object-storage{
   background-color: #f06666; /* Light red */
 }
 
-.block.network-share {
+.dserver-block.network-share, .dtool-block.network-share {
   background-color: #ccd05a; /* Light yellow */
 }
 
-.block.webapp,
+.webapp,
 .restapi,
 .mongodb {
   background-color: #ccffcc; /* Light green */
 }
 
-.user-interaction {
+.automated-execution, .user-interaction{
+  background-color: #8CC63F;
+  color: white;
+}
+.dtool-h.user-interaction {
   grid-column: 3 / span 2;
   grid-row: 1;
-  background-color: #8cc63f;
-  color: white;
 }
 
-.automated-execution {
-  grid-column: 1 / span 3;
+.dtool-h.automated-execution {
+  grid-column: 1 / span 3; 
   grid-row: 2;
-  background-color: #8cc63f;
-  color: white;
 }
 
-
-.dtool-block.terminal{
-  grid-area: 3/3;
+.dserver-h.user-interaction {
+  grid-area: 1/3/1/6;
 }
+
+.dserver-h.automated-execution {
+  grid-area: 2/1/2/4;
+}
+
+.dtool-block.terminal{grid-area: 3/3;}
 .dtool-block.gui{grid-area: 3/4;}
-.dtool-block.python-api{grid-area: 4/1/4/1;}
+.dtool-block.python-api{grid-area: 4/1/4/5;}
 
 
 .dtool-block.storage-item-disk{grid-area: 5/1;}
@@ -109,15 +116,19 @@ section h2 {
 .dtool-block.other-infrastructure{grid-area: 6/4;}
 
 
-.dserver-block.terminal{}
-.dserver-block.gui{}
-.dserver-block.python-api{}
-.dserver-block.webapp{}
-.dserver-block.restapi{}
-.dserver-block.flask{}
-.dserver-block.search-plugin{}
-.dserver-block.retrieve-plugin{}
-.dserver-block.other-plugins{}
-.dserver-block.database{}
-.dserver-block.mongodb{}
-.dserver-block.other-database{}
+.dserver-block.terminal{grid-area: 3/3;}
+.dserver-block.gui{grid-area: 3/4;}
+.dserver-block.webapp{grid-area: 3/5/4/6;}
+
+.dserver-block.python-api{grid-area: 4/2/4/6;}
+
+.dserver-block.restapi{grid-area: 5/1/5/6;}
+
+.dserver-block.flask{grid-area: 6/1;}
+.dserver-block.search-plugin{grid-area: 6/2;}
+.dserver-block.retrieve-plugin{grid-area: 6/3;}
+.dserver-block.other-plugins{grid-area: 6/4/6/6;}
+
+.dserver-block.database{grid-area: 7/1;}
+.dserver-block.mongodb{grid-area: 7/2/7/4;}
+.dserver-block.other-database{grid-area: 7/4/7/6;}
