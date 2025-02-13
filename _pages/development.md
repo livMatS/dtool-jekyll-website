@@ -25,7 +25,7 @@ nav_order: 2
             <img src="{{ '/assets/icons/terminal.png' | relative_url}}" alt="Terminal icon">
             <span><a href="https://dtool.readthedocs.io">dtool CLI</a></span>
           {% elsif block == 'gui' %}
-            <img src="{{ '/assets/icons/gtk.png' relative_url}}" alt="GUI icon">
+            <img src="{{ '/assets/icons/gtk.png' | relative_url}}" alt="GUI icon">
             <span><a href="https://dtool-lookup-gui.readthedocs.io">dtool GUI</a></span>
           {% elsif block == 'python-api' %}
             <img src="{{ '/assets/icons/python.png'| relative_url}}" alt="Python icon">
