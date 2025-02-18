@@ -13,7 +13,7 @@ nav_order: 2
 
 <div class="publications">
 
-<h3 style="border-top: 1px solid var(--global-divider-color);"><br>Publications empowered by dtool<br></h3>
+<h3 style="border-top: 1px solid var(--global-divider-color);"><br>publications empowered by dtool<br></h3>
 
 {% bibliography --file empowered %}
 
