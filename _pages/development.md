@@ -8,9 +8,8 @@ nav_order: 2
 ---
 
 <!-- _pages/development.md -->
-
-<!--<link rel="stylesheet" href="{{ }}">-->
 {% for tool in site.data.tools %}
+
   <section id="{{ tool.name | downcase | replace: ' ', '-' }}">
     <h2 class="">{{ tool.name }}</h2>
     <div class="tool-grid">
