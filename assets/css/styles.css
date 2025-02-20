@@ -94,7 +94,6 @@ div.dtool-block, div.dserver-block {
   background-color: #f06666; /* Light red */
 }
 
-.dserver-block.network-share, .dtool-block.network-share {
 .dserver-block.object-storage,
 .dtool-block.object-storage {
   background-color: #f06666; /* Light red */
@@ -111,8 +110,6 @@ div.dtool-block, div.dserver-block {
   background-color: #ccffcc; /* Light green */
 }
 
-.automated-execution, .user-interaction{
-  background-color: #8CC63F;
 .automated-execution,
 .user-interaction {
   background-color: #8cc63f;
@@ -136,7 +133,7 @@ div.dtool-block, div.dserver-block {
 .dserver-h.automated-execution {
   grid-area: 2/1/2/4;
 }
-
+/*
 .dtool-block.terminal{grid-area: 3/3;}
 .dtool-block.gui{grid-area: 3/4;}
 .dtool-block.python-api{grid-area: 4/1/4/5;}
@@ -167,7 +164,7 @@ div.dtool-block, div.dserver-block {
 
 .dserver-block.database{grid-area: 7/1;}
 .dserver-block.mongodb{grid-area: 7/2/7/4;}
-.dserver-block.other-database{grid-area: 7/4/7/6;}
+.dserver-block.other-database{grid-area: 7/4/7/6;} */
 .dtool-block.terminal {
   grid-area: 3/3;
 }
