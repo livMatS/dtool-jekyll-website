@@ -2,6 +2,7 @@
 layout: about
 title: about
 permalink: /
+selected_papers: true
 ---
 
 Making data FAIR—findable, accessible, interoperable, reproducible—has become the recurring theme behind many research
