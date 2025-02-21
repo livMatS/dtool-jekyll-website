@@ -15,7 +15,7 @@ nav_order: 2
 
 <h3 style="border-top: 1px solid var(--global-divider-color);"><br>publications empowered by dtool<br></h3>
 
-A list of publications that have been made possible by managing the underlying data with <i>dtool</i> and 
+A list of publications that have been made possible by managing the underlying data with <i>dtool</i> and
 <i>dserver</i>.
 
 {% bibliography --file empowered %}

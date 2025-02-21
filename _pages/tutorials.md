@@ -15,7 +15,6 @@ The [dtool-demo](https://github.com/livMatS/dtool-demo) repository contains seve
 demonstrate working with the dtool CLI. The following videos have been generated from these terminal sessions. For
 thorough documentation, refer to [dtool.readthedocs.io](https://dtool.readthedocs.io).
 
-
 <details>
 <summary>setup</summary>
 <br>
