@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://dtool.dev/sitemap.xml
+User-agent: * Disallow: Sitemap: https://www.dtool.dev/sitemap.xml
