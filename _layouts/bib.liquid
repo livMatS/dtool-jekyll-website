@@ -353,6 +353,13 @@
       </div>
     {% endif %}
 
+    {% if entry.doi %}
+      <!-- Hidden doi block -->
+      <div class="doi hidden">
+        <p>{{ entry.doi }}</p>
+      </div>
+    {% endif %}
+
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
       <div class="bibtex hidden">

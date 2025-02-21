@@ -1,7 +1,17 @@
 <header>
   <!-- Nav Bar -->
+  <style>
+    .header-left:after {
+      content: ' ';
+      display: inline-block;
+      width: 10px; /* Adjust this value to increase or decrease the space */
+    }
+  </style>
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
+      <div class="header-left">
+        <img src="{{ site.baseurl }}/assets/images/dtool_logo.png" alt="dtool logo" class="logo" style="height: 48px; width:48px">
+      </div>
       {% if page.permalink != '/' %}
         <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
           {% if site.title == 'blank' %}

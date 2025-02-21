@@ -23,3 +23,38 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* Block Styles */
+.dserver-block,
+.dserver-block,
+.dtool-block,
+.dtool-h,
+.dserver-h {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  align-items: center;
+  span {
+    min-width: 100px;
+    max-height: 40px; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    a {
+      color: black;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+        /*color: #0066cc;*/
+      }
+    }
+  }
+  div {
+    font-size: 12px;
+  }
+}
+
