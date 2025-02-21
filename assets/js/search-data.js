@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-development",
           title: "development",
-          description: "dtool development hierarchy - dtool and dserver",
+          description: "dtool and dserver abstraction layers",
           section: "Navigation",
           handler: () => {
             window.location.href = "/development/";
