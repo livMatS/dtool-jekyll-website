@@ -193,6 +193,16 @@ exclude:
   - pages/projects.md
   - _projects/
   - _posts/
+  - _news/announcement_*.md
+  - _pages/blog.md
+  - _pages/cv.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/repositories.md
+  - _pages/teaching.md
+  - _pages/dropdown.md
+  - _projects/?_project.md
+  - assets/jupyter/blog.ipynb
 keep_files:
   - CNAME
   - .nojekyll
