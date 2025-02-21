@@ -2,12 +2,18 @@
 layout: page
 permalink: /development/
 title: development
-description: dtool development hierarchy - dtool and dserver
+description:  dtool and dserver abstraction layers
 nav: true
 nav_order: 2
 ---
 
-<!-- _pages/development.md -->
+*dtool* and *dserver* have been developed to integrate well into both manual and automized workflows. 
+Their design follows "Ten simple rules for making a software tool workflow-ready" postulated by 
+[Brack et al., 2022](https://doi.org/10.1371/journal.pcbi.1009823). Importantly, this means exposing both human-
+and machine-accessible interfaces at different implementation layers. Diagrams below place core components of the
+*dtool* and *dserver* ecosystem within a landscape of stacked abstraction layers. Whether you simply want to manipulate 
+*dtool* datasets with a graphical user interface, or embed handling  *dtool* datasets within a complex computational 
+workflow, below you will find links to the documentation of the right interface to the ecosystem.
 
 {% for tool in site.data.tools %}
 
