@@ -22,7 +22,8 @@ section h2 {
   gap: 20px;
 }
 
-.dserver-block img, .dtool-block img {
+.dserver-block img,
+.dtool-block img {
   width: 50px;
   height: 50px;
   max-height: 50px;
@@ -36,11 +37,15 @@ a:visited {
   text-decoration: underline;
 }
 
-.dserver-block span, .dtool-block span , .dserver-h, .dtool-h{
+.dserver-block span,
+.dtool-block span,
+.dserver-h,
+.dtool-h {
   color: black;
 }
 
-div.dtool-block, div.dserver-block {
+div.dtool-block,
+div.dserver-block {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -57,14 +62,15 @@ div.dtool-block, div.dserver-block {
   background-color: #e5faff;
 }
 
-.funder1{
+.funder1 {
   width: 100px;
 }
-.funder2{
+.funder2 {
   width: 100px;
 }
 
-.gui, .python-api,
+.gui,
+.python-api,
 .storage-item-disk,
 .storage-item-smb,
 .storage-item-s3,
@@ -72,7 +78,6 @@ div.dtool-block, div.dserver-block {
 .database {
   background-color: #eff7ff; /* blue*/
 }
-
 
 .search-plugin,
 .retrieve-plugin,
@@ -111,7 +116,7 @@ div.dtool-block, div.dserver-block {
 }
 
 .dtool-h.automated-execution {
-  grid-column: 1 / span 3; 
+  grid-column: 1 / span 3;
   grid-column: 1 / span 3;
   grid-row: 2;
 }
