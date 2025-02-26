@@ -59,8 +59,9 @@ layout: default
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">citing dtool & dserver</a>
       </h2>
+      If you manage your datasets with <i>dtool</i> and make them findable with <i>dserver</i>, please cite as below.
       {% include selected_papers.liquid %}
     {% endif %}
 
