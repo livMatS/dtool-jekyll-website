@@ -50,6 +50,27 @@ thorough documentation, refer to [dtool.readthedocs.io](https://dtool.readthedoc
 </details>
 <p></p>
 
+## graphical user interface
+
+Following videos show how to work with the [dtool-lookup-gui](https://github.com/livMatS/dtool-lookup-gui),
+an experimental graphical user interface for the *dtool* & *dserver* research data management ecosystem.
+For thorough documentation, refer to [dtool-lookup-gui.readthedocs.io](https://dtool-lookup-gui.readthedocs.io/).
+
+<details>
+<summary>setup</summary>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dnx-kEI65Js?si=Y7vGJyV7MtVyjhhZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
+<p></p>
+
+<details>
+<summary>copy dataset from remote</summary>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qu5_AF9zrb4?si=aLkDmqQHT1iJuxSC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
+<p></p>
+
+
 ## dtool & dserver cheat sheet
 
 <iframe src="https://widgets.figshare.com/articles/26102227/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
