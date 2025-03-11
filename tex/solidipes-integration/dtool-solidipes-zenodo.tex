@@ -136,11 +136,9 @@
 \node[anchor=south west, inner sep=0] (dtool) at (-9,-6.5) {\includegraphics[height=0.15\textwidth]{dtool_logo.png}};
 \node[anchor=south west, inner sep=0] (solidipes) at (-9,-3.8) {\includegraphics[height=0.15\textwidth]{solidipes.jpg}};
 \node[anchor=south west, inner sep=0] (zenodo) at (-9,-1.1) {\includegraphics[height=0.15\textwidth]{Zenodo-gradient-square.png}};
-    % Add annotations or overlays here
-    % \draw[red,thick] (image.south west) -- (image.north east); % Example <
+
 \draw[arrows = {-Stealth[inset=0pt, length=10pt, angle'=90]}, line width=4mm, color=light_purple] ($(dtool.north west) + (0.075\textwidth, 0.01\textwidth)$) -- ($(solidipes.south west) + (0.075\textwidth, -0.01\textwidth)$);
 \draw[arrows = {-Stealth[inset=0pt, length=10pt, angle'=90]}, line width=4mm, color=light_purple] ($(solidipes.north west) + (0.075\textwidth, 0.01\textwidth)$) -- ($(zenodo.south west) + (0.075\textwidth, -0.01\textwidth)$);
-
 
 % Labels next to images
 \node[right=10pt of dtool.east, dtool] {\fontsize{16pt}{12}\selectfont\textbf{dtool}};
