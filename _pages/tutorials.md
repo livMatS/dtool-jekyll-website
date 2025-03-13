@@ -70,6 +70,19 @@ For thorough documentation, refer to [dtool-lookup-gui.readthedocs.io](https://d
 </details>
 <p></p>
 
+<details>
+<summary>dataset creation</summary>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lGODxYxF3F4?si=rFLXpECINY00eYdK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
+<p></p>
+
+<details>
+<summary>copy dataset to remote</summary>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/29v4eKC1ym0?si=q7GtPn-zQKXoZkGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
+<p></p>
 
 ## dtool & dserver cheat sheet
 
