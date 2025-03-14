@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-This page lists didactic material available for components of the dtool ecosystem.
+This page lists didactic material available for components of the *dtool* ecosystem.
 
 ## command line client
 
@@ -83,6 +83,10 @@ For thorough documentation, refer to [dtool-lookup-gui.readthedocs.io](https://d
 <iframe width="560" height="315" src="https://www.youtube.com/embed/29v4eKC1ym0?si=q7GtPn-zQKXoZkGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 <p></p>
+
+## dserver demonstrator instance
+
+[demo.dtool.dev](https://demo.dtool.dev) exposes an open *dserver* instance as a playground for first steps with the *dtool* ecosystem.
 
 ## dtool & dserver cheat sheet
 
