@@ -32,7 +32,8 @@ section h2 {
   flex-shrink: 0;
 }
 
-a:visited {
+.dserver-block a:visited,
+.dtool-block a:visited {
   color: black;
   text-decoration: underline;
 }
