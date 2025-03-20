@@ -1,7 +1,7 @@
 - name: dtool
   parts:
-    - user-interaction
-    - automated-execution
+    - user interaction
+    - automated execution
   blocks:
     - terminal
     - gui
@@ -16,12 +16,12 @@
     - other-infrastructure
 - name: dserver
   parts:
-    - user-interaction
-    - automated-execution
+    - user interaction
+    - automated execution
   blocks:
     - terminal
     - gui
-    - python-api
+    - dtool-lookup-api
     - webapp
     - restapi
     - flask

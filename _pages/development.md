@@ -21,7 +21,7 @@ workflow, below you will find links to the documentation of the right interface 
     <h2 class="">{{ tool.name }}</h2>
     <div class="tool-grid">
       {% for part in tool.parts %}
-        <div class="{{ tool.name }}-h {{part}}">
+        <div class="{{ tool.name }}-h {{ part | downcase | replace: ' ', '-'}}">
           <span>{{ part }}</span>
         </div>
       {% endfor %}
@@ -38,7 +38,7 @@ workflow, below you will find links to the documentation of the right interface 
             <span><a href="https://dtoolcore.readthedocs.io/en/latest/">dtoolcore (Python API)</a></span>
           {% elsif block == 'storage-item-disk' %}
             <img src="{{ '/assets/icons/python.png'| relative_url}}" alt="Python icon">
-            <span>disk storage broker</span>
+            <span><a href="https://github.com/jic-dtool/dtoolcore/blob/master/dtoolcore/storagebroker.py#L403-L784">disk storage broker</a></span>
           {% elsif block == 'storage-item-smb' %}
             <span><a href="https://github.com/livMatS/dtool-smb">dtool-smb</a></span>
           {% elsif block == 'storage-item-s3' %}
@@ -59,9 +59,12 @@ workflow, below you will find links to the documentation of the right interface 
           {% elsif block == 'webapp' %}
             <img src="{{ '/assets/icons/vuejs.png'| relative_url}}" alt="Vue.js icon">
             <span><a href="https://github.com/jic-dtool/dtool-lookup-webapp">Vue.js web app</a></span>
+          {% elsif block == 'dtool-lookup-api' %}
+            <img src="{{ '/assets/icons/python.png'| relative_url}}" alt="Python icon">
+            <span><a href="https://dtool-lookup-api.readthedocs.io/en/latest/">dtool-lookup-api (Python API)</a></span>
           {% elsif block == 'restapi' %}
             <img src="{{ '/assets/icons/openapi.png'| relative_url}}" alt="OpenAPI icon">
-            <span><a href="https://dserver.readthedocs.io">dserver (OpenAPI-compliant REST API)</a></span>
+            <span><a href="https://dserver.readthedocs.io">dserver</a> (<a href="https://demo.dtool.dev/lookup/doc/swagger">OpenAPI-compliant REST API</a>)</span>
           {% elsif block == 'flask' %}
             <img src="{{ '/assets/icons/flask.png'| relative_url}}" alt="Flask icon">
             <span><a href="https://dservercore.readthedocs.io">dservercore</a></span>
@@ -70,13 +73,13 @@ workflow, below you will find links to the documentation of the right interface 
           {% elsif block == 'retrieve-plugin' %}
             <span><a href="https://github.com/livMatS/dserver-retrieve-plugin-mongo">dserver-retrieve-plugin-mongo</a></span>
           {% elsif block == 'other-plugins' %}
-            <span>other server-side plugins...</span>
+            <span><a href="https://dserver.readthedocs.io/en/latest/story.html#user-stories-that-lead-to-dserver-centered-additions-for-the-dtool-ecosystem">other server-side plugins...</a></span>
           {% elsif block == 'database' %}
             <img src="{{ '/assets/icons/sql.png'| relative_url}}" alt="SQL icon">
             <span>core database</span>
           {% elsif block == 'mongodb' %}
             <img src="{{ '/assets/icons/mongodb.png'| relative_url}}" alt="MongoDB icon">
-            <span><a href="https://github.com/livMatS/dserver-search-plugin-mongo">database with searchable and retrievable metadata</a></span>
+            <span><a href="https://www.mongodb.com/">database with searchable and retrievable metadata</a></span>
           {% elsif block == 'other-database' %}
             <img src="{{ '/assets/icons/database.png'| relative_url}}" alt="Database icon">
             <span>other database technologies...</span>
