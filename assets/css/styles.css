@@ -58,7 +58,7 @@ div.dserver-block {
 .other-infrastructure,
 .other-database {
   color: #666666; /* dark grey */
-  background-color: #F2F2F2; /* grey */
+  background-color: #f2f2f2; /* grey */
 
   & span {
     color: inherit;
@@ -83,7 +83,7 @@ div.dserver-block {
 .storage-item-smb,
 .storage-item-s3,
 .storage-item-other {
-  color: #244C6F; /*dark blue*/
+  color: #244c6f; /*dark blue*/
   background-color: #eff7ff; /* blue*/
 
   & span {
@@ -92,13 +92,13 @@ div.dserver-block {
 
   & a,
   & a:visited {
-    color: #244C6F; /* dark grey */
+    color: #244c6f; /* dark grey */
   }
 }
 
 .gui {
-  color: #729FCF; /*dark blue*/
-  background-color: #EEF6FF; /* blue*/
+  color: #729fcf; /*dark blue*/
+  background-color: #eef6ff; /* blue*/
 
   & span {
     color: inherit;
@@ -106,13 +106,13 @@ div.dserver-block {
 
   & a,
   & a:visited {
-    color: #729FCF; /* dark grey */
+    color: #729fcf; /* dark grey */
   }
 }
 
 .database {
-  color: #00BCF2;; /*dark blue*/
-  background-color: #E5FAFF; /* blue*/
+  color: #00bcf2; /*dark blue*/
+  background-color: #e5faff; /* blue*/
 
   & span {
     color: inherit;
@@ -120,7 +120,7 @@ div.dserver-block {
 
   & a,
   & a:visited {
-    color: #00BCF2; /* dark grey */
+    color: #00bcf2; /* dark grey */
   }
 }
 
@@ -128,8 +128,8 @@ div.dserver-block {
 .retrieve-plugin,
 .flask,
 .other-plugins {
-  color: #1A6C73;
-  background-color: #D5FBFF;
+  color: #1a6c73;
+  background-color: #d5fbff;
 
   & span {
     color: inherit;
@@ -137,13 +137,13 @@ div.dserver-block {
 
   & a,
   & a:visited {
-    color: #1A6C73; /* dark yellow */
+    color: #1a6c73; /* dark yellow */
   }
 }
 
 .dserver-block.object-storage,
 .dtool-block.object-storage {
-  color: #7B1D14;
+  color: #7b1d14;
   background-color: #ffe8e5; /* Light red */
 
   & span {
@@ -152,12 +152,12 @@ div.dserver-block {
 
   & a,
   & a:visited {
-    color: #7B1D14; /* dark yellow */
+    color: #7b1d14; /* dark yellow */
   }
 }
 
 .dtool-block.network-share {
-  color: #9C8735; /* Dark yellow */
+  color: #9c8735; /* Dark yellow */
   background-color: #fff8d5; /* Light yellow */
 
   & span {
@@ -166,12 +166,12 @@ div.dserver-block {
 
   & a,
   & a:visited {
-    color: #9C8735; /* dark yellow */
+    color: #9c8735; /* dark yellow */
   }
 }
 
 .webapp {
-  color: #56B583;
+  color: #56b583;
   background-color: #dbffef; /* Light green */
 
   & span {
@@ -180,13 +180,13 @@ div.dserver-block {
 
   & a,
   & a:visited {
-    color: #56B583; /* dark yellow */
+    color: #56b583; /* dark yellow */
   }
 }
 
 .restapi {
   color: #4d5a31;
-  background-color: #E6FFCC; /* Light green */
+  background-color: #e6ffcc; /* Light green */
 
   & span {
     color: inherit;
@@ -198,10 +198,9 @@ div.dserver-block {
   }
 }
 
-
 .mongodb {
-  color: #3EA754;
-  background-color: #E6FFEF;
+  color: #3ea754;
+  background-color: #e6ffef;
 
   & span {
     color: inherit;
@@ -209,9 +208,8 @@ div.dserver-block {
 
   & a,
   & a:visited {
-    color: #3EA754; /* dark green */
+    color: #3ea754; /* dark green */
   }
-
 }
 
 .automated-execution,
