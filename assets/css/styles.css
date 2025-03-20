@@ -38,8 +38,8 @@ section h2 {
   text-decoration: underline;
 }
 
-.dserver-block span,
-.dtool-block span,
+/*.dserver-block span,*/
+/*.dtool-block span,*/
 .dserver-h,
 .dtool-h {
   color: black;
@@ -55,12 +55,19 @@ div.dserver-block {
 /* Specific Block Styles */
 .terminal,
 .file-system,
-.other-infrastructure {
-  background-color: #efefef; /* grey */
-}
-
+.other-infrastructure,
 .other-database {
-  background-color: #e5faff;
+  color: #666666; /* dark grey */
+  background-color: #F2F2F2; /* grey */
+
+  & span {
+    color: inherit;
+  }
+
+  & a,
+  & a:visited {
+    color: #666666; /* dark grey */
+  }
 }
 
 .funder1 {
@@ -70,46 +77,151 @@ div.dserver-block {
   width: 100px;
 }
 
-.gui,
 .python-api,
+.dtool-lookup-api,
 .storage-item-disk,
 .storage-item-smb,
 .storage-item-s3,
-.storage-item-other,
-.database {
+.storage-item-other {
+  color: #244C6F; /*dark blue*/
   background-color: #eff7ff; /* blue*/
+
+  & span {
+    color: inherit;
+  }
+
+  & a,
+  & a:visited {
+    color: #244C6F; /* dark grey */
+  }
+}
+
+.gui {
+  color: #729FCF; /*dark blue*/
+  background-color: #EEF6FF; /* blue*/
+
+  & span {
+    color: inherit;
+  }
+
+  & a,
+  & a:visited {
+    color: #729FCF; /* dark grey */
+  }
+}
+
+.database {
+  color: #00BCF2;; /*dark blue*/
+  background-color: #E5FAFF; /* blue*/
+
+  & span {
+    color: inherit;
+  }
+
+  & a,
+  & a:visited {
+    color: #00BCF2; /* dark grey */
+  }
 }
 
 .search-plugin,
 .retrieve-plugin,
 .flask,
 .other-plugins {
-  background-color: #d5fbff;
+  color: #1A6C73;
+  background-color: #D5FBFF;
+
+  & span {
+    color: inherit;
+  }
+
+  & a,
+  & a:visited {
+    color: #1A6C73; /* dark yellow */
+  }
 }
 
 .dserver-block.object-storage,
 .dtool-block.object-storage {
+  color: #7B1D14;
   background-color: #ffe8e5; /* Light red */
+
+  & span {
+    color: inherit;
+  }
+
+  & a,
+  & a:visited {
+    color: #7B1D14; /* dark yellow */
+  }
 }
 
-.dserver-block.network-share,
 .dtool-block.network-share {
+  color: #9C8735; /* Dark yellow */
   background-color: #fff8d5; /* Light yellow */
+
+  & span {
+    color: inherit;
+  }
+
+  & a,
+  & a:visited {
+    color: #9C8735; /* dark yellow */
+  }
 }
 
-.webapp,
-.restapi {
+.webapp {
+  color: #56B583;
   background-color: #dbffef; /* Light green */
+
+  & span {
+    color: inherit;
+  }
+
+  & a,
+  & a:visited {
+    color: #56B583; /* dark yellow */
+  }
 }
+
+.restapi {
+  color: #4d5a31;
+  background-color: #E6FFCC; /* Light green */
+
+  & span {
+    color: inherit;
+  }
+
+  & a,
+  & a:visited {
+    color: #4d5a31; /* dark green */
+  }
+}
+
 
 .mongodb {
-  background-color: #e3ffef;
+  color: #3EA754;
+  background-color: #E6FFEF;
+
+  & span {
+    color: inherit;
+  }
+
+  & a,
+  & a:visited {
+    color: #3EA754; /* dark green */
+  }
+
 }
 
 .automated-execution,
 .user-interaction {
   background-color: #70ad47;
   color: white;
+
+  & span {
+    color: inherit;
+  }
 }
 .dtool-h.user-interaction {
   grid-column: 3 / span 2;
@@ -175,7 +287,7 @@ div.dserver-block {
   grid-area: 3/5/5/6;
 }
 
-.dserver-block.python-api {
+.dserver-block.dtool-lookup-api {
   grid-area: 4/2/4/5;
 }
 

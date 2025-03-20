@@ -44,14 +44,6 @@ $max-content-width: {{ site.max_width }};
     text-align: center;
     font-weight: bold;
     font-size: 15px;
-    a {
-      color: black;
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-        /*color: #0066cc;*/
-      }
-    }
   }
   div {
     font-size: 12px;
