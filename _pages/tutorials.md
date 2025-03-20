@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-This page lists didactic material available for components of the *dtool* ecosystem.
+This page lists didactic material available for components of the _dtool_ ecosystem.
 
 ## command line client
 
@@ -53,7 +53,7 @@ thorough documentation, refer to [dtool.readthedocs.io](https://dtool.readthedoc
 ## graphical user interface
 
 Following videos show how to work with the [dtool-lookup-gui](https://github.com/livMatS/dtool-lookup-gui),
-an experimental graphical user interface for the *dtool* & *dserver* research data management ecosystem.
+an experimental graphical user interface for the _dtool_ & _dserver_ research data management ecosystem.
 For thorough documentation, refer to [dtool-lookup-gui.readthedocs.io](https://dtool-lookup-gui.readthedocs.io/).
 
 <details>
@@ -86,7 +86,7 @@ For thorough documentation, refer to [dtool-lookup-gui.readthedocs.io](https://d
 
 ## dserver demonstrator instance
 
-[demo.dtool.dev](https://demo.dtool.dev) exposes an open *dserver* instance as a playground for first steps with the *dtool* ecosystem.
+[demo.dtool.dev](https://demo.dtool.dev) exposes an open _dserver_ instance as a playground for first steps with the _dtool_ ecosystem.
 
 ## dtool & dserver cheat sheet
 
