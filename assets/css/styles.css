@@ -17,6 +17,7 @@ section h2 {
 
 /* Tool Grid */
 .tool-grid {
+  width: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
