@@ -78,9 +78,16 @@ For thorough documentation, refer to [dtool-lookup-gui.readthedocs.io](https://d
 <p></p>
 
 <details>
-<summary>copy dataset to remote</summary>
+<summary>copy dataset to remote and find with dserver</summary>
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/29v4eKC1ym0?si=q7GtPn-zQKXoZkGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FMIY8U7VXN8?si=h8ZpVzRXuagD8uya" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</details>
+<p></p>
+
+<details>
+<summary>search professionally with MongoDB query language, navigate dependency graph</summary>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZhjALYz4XOw?si=1YQFx9iYJ1dXPTLN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </details>
 <p></p>
 
