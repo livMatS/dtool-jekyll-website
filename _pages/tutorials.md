@@ -95,7 +95,7 @@ For thorough documentation, refer to [dtool-lookup-gui.readthedocs.io](https://d
 
 [demo.dtool.dev](https://demo.dtool.dev) exposes an open _dserver_ instance as a playground for first steps with the _dtool_ ecosystem.
 
-To populate a local _dserver_ instance with some sample datasets, download the dtool sample family [sample-datasets.zip](assets/files/sample-datasets.zip), extract them and run
+To populate a local _dserver_ instance with some sample datasets, download the dtool sample family [sample-datasets.zip](../assets/files/sample-datasets.zip), extract them and run
 
 ```bash
 docker run -v $(pwd)/sample-datasets:/tmp/data:ro -p 8888:8888 ghcr.io/livmats/dserver-minimal:latest
