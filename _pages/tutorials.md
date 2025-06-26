@@ -104,7 +104,6 @@ docker run -v $(pwd)/sample-datasets:/tmp/data:ro -p 8888:8888 ghcr.io/livmats/d
 from within the folder of extraction. This mounts the local folder `sample-datasets` into the docker container as a dataset repository.
 [http://localhost:8888](http://localhost:8888) now exposes the _dserver web app_ and lists a family of datasets.
 
-
 ## dtool & dserver cheat sheet
 
 <iframe src="https://widgets.figshare.com/articles/26102227/embed?show_title=1" width="568" height="351" allowfullscreen frameborder="0"></iframe>
