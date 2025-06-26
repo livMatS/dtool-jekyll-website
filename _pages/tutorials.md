@@ -95,14 +95,15 @@ For thorough documentation, refer to [dtool-lookup-gui.readthedocs.io](https://d
 
 [demo.dtool.dev](https://demo.dtool.dev) exposes an open _dserver_ instance as a playground for first steps with the _dtool_ ecosystem.
 
-To populate a local _dserver_ instance with some sample datasets, download the dtool sample family [assets/files/sample-datasets.zip](sample-datasets.zip), extract them and run
+To populate a local _dserver_ instance with some sample datasets, download the dtool sample family [sample-datasets.zip](assets/files/sample-datasets.zip), extract them and run
 
 ```bash
 docker run -v $(pwd)/sample-datasets:/tmp/data:ro -p 8888:8888 ghcr.io/livmats/dserver-minimal:latest
 ```
 
-from within the folder of extraction. This mounts the local folder `sample-datasets` into the docker container as a dataset repository.
+from within the folder of extraction. This mounts the freshly extracted local folder `sample-datasets` into the docker container as a dataset repository.
 [http://localhost:8888](http://localhost:8888) now exposes the _dserver web app_ and lists a family of datasets.
+[http://localhost:8888/lookup/doc/swagger](http://localhost:8888/lookup/doc/swagger) exposes _dserver_'s interactive REST API documentation 
 
 ## dtool & dserver cheat sheet
 
